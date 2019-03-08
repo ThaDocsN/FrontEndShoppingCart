@@ -2,6 +2,9 @@ package com.thadocizn.frontendshoppingcart.model;
 
 import com.google.gson.annotations.SerializedName;
 
+import lombok.Data;
+
+@Data
 public class Supplier {
 
     @SerializedName("supplier_id")
